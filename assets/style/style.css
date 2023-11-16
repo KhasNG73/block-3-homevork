@@ -1,0 +1,500 @@
+@import 'fonts.css  ';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none
+}
+li{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    width: 100%;
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header{
+    background-image: url(../images/фон.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+background-position: center;
+margin-bottom: 150px;
+}
+.nav__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 70px;
+}
+ 
+.logo{
+    padding-bottom: 140px;
+}
+
+.header__descr{
+    color: white;
+
+/* Text 18 px */
+font-family: Noto Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.header__title{
+   color: #FFF;
+
+/* Заголовок H0 */
+font-family: Noto Sans;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+font-variant: all-small-caps;
+}
+.header__text{
+    color: #FFF;
+
+/* Discriptor */
+font-family: Noto Sans;
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 110px;
+}
+.header__link{
+    color: #FFF;
+/* Text 18 px */
+font-family: Noto Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 266px;
+}
+.seti{
+    padding-bottom: 38px;
+}
+.Uslugi{
+    color:  #868585;
+
+/* Заголовок H1 */
+font-family: Noto Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 60px;
+}
+.header__list-link{
+    margin-top: 250px;
+}
+.main__title{
+    color:  #303030;
+width: 510px;
+/* Заголовок H2 */
+font-family: Noto Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 15px;
+}
+.main__list{
+display: flex;
+flex-direction: column;
+gap: 50px;
+}
+.main__descr{
+
+    color: #303030;
+    width: 510px;
+/* Text 14 px */
+font-family: Noto Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.main__content{
+    display: flex;
+    gap: 90px;
+   
+    margin-bottom: 150px;
+}
+.main__img{
+    height: 600px;
+}
+.tarigh__list-link{
+    color:  #303030;
+
+/* Text 18 px */
+font-family: Noto Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.tarigh__list{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 125px;
+}
+.tarigh__list-link:hover{
+border-bottom: 1px  solid #303030;;
+
+
+}
+.photo__descr{
+    width: 235px;
+    color: #303030;
+/* Text 14 px */
+font-family: Noto Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 90px;
+}
+.house__photo{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+.photo__list{
+    display: flex;
+    flex-direction: column;
+
+}
+.garant__title{
+    color:  #303030;
+    /* Заголовок H2 */
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 5px;
+}
+.garant__descr{
+    color:  #303030;
+
+    /* Text 14 px */
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.garant__list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.garant{
+    display: flex;
+    gap: 40px;
+}
+.garant__descr-1{
+    color:  #303030;
+
+    /* Text 14 px */
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 70px;
+
+}
+.green__tarigh{
+    display: flex;
+    flex-direction: column;
+}
+.green__tarigh-title{
+   
+    width: 600px;
+    color:  #303030;
+    /* Заголовок H2 */
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 17px;
+}
+.main__tarigh-content{
+    display: flex;
+    gap: 40px;
+    padding-bottom: 150px;
+}
+.nav{
+    background-image: url(../images/Rectangle\ 10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+background-position: center;
+margin-bottom: 150px;
+
+}
+.nav__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 130px;
+}
+.nav__title{
+ color:  #FFF; 
+text-align: center;
+
+/* Discriptor */
+font-family: Noto Sans;
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 144px;
+}
+.clients__content{
+    display: flex;
+    gap: 90px;
+    margin-bottom: 150px;
+}
+.clients__list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 50px;
+    margin-bottom: 65px;
+}
+.clients__descr{
+    color: #303030;
+
+/* Text 14 px */
+font-family: Noto Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.clients__title{
+    color: #303030;
+
+/* Заголовок H2 */
+font-family: Noto Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 30px;
+}
+.clients__link{
+padding-top: 110px;
+    color:  #303030;
+
+/* Text 18 px */
+font-family: Noto Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.step__content{
+display: flex;
+gap: 90px;
+margin-bottom: 150px;
+}
+.step__info{
+margin-bottom: 30px;
+display: flex;
+flex-direction: column;
+}
+.step__info-number{
+    color: #868585;
+padding-bottom: 11px;
+/* Text 14 px */
+font-family: Noto Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.step__info-title{
+    color: #303030;
+padding-bottom: 2px;
+/* Заголовок H2 */
+font-family: Noto Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.step__info-descr{
+    color:  #303030;
+
+/* Text 14 px */
+font-family: Noto Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footer__content{
+  display: flex;
+padding-top: 70px;
+
+}
+.footer{
+    
+background-image: url(../images/Rectangle\ 13.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.data__title{
+    color:  #FFF;
+
+/* Заголовок H1 */
+font-family: Noto Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.names input{
+    background-color:transparent;
+border: transparent;
+border-bottom:2px solid white;
+outline: none;
+/* Text 14 px */
+font-family: Noto Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 510px; 
+color: #FFF;
+height: 50px;
+margin-bottom: 60px;
+margin-top: 60px;
+}
+.Phone input{
+    background-color:transparent;
+border: transparent;
+border-bottom:2px solid white;
+outline: none;
+/* Text 14 px */
+font-family: Noto Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 510px; 
+color: #FFF;
+height: 50px;
+margin-bottom: 110px;
+}
+.contacts{
+    margin-left: 90px;
+}
+.contact__descr{
+    color: #FFF;
+
+/* Text 18 px */
+font-family: Noto Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.contact__list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 150px    ;
+}
+.contacts__title{
+    color:  #FFF;
+
+    /* Заголовок H1 */
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 60px;
+}
+.footer__seti{
+    display: flex;
+    justify-content: space-between;
+}
+.seti__descr{
+    color:  #FFF;
+font-family: Noto Sans ;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.crcl{
+    width: 100px;
+height: 100px;
+border-radius: 50%;
+border: 2px solid #FFF;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+.crcl::after{
+    content: 'оставить заявку';
+    position: absolute;
+bottom: 21px;
+right: -50px;
+color: #FFF;
+}
+.crcl__black{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.crcl__black::after{
+    content: 'записаться на консультацию';
+    position: absolute;
+    
+bottom: 21px;
+right: -120px;
+}
+.crcl__white{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.crcl__white::after{
+    display: flex;
+    content: 'записаться на консультацию';
+    position: absolute;
+bottom: 20px;
+right: -120px;
+color: #FFF;
+}
